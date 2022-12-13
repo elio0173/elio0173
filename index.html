@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guim Tió</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <section class="page1">
+            <div>
+                <h1 id="title">Guim Tió</h1>
+            </div>
+            <div id="buttons">
+                <button class="button" id="home" onclick="location.href='#title'">
+                    <a href="#title">Home</a></button>
+                <br />
+                <button class="button" id="artist" onclick="location.href='#artistheader'"> <a
+                        href="#artistheader">Artist</a></button>
+                <br />
+                <button class="button" id="artwork" onclick="location.href='#dog'">
+                    <a href="#dog">Work</a></button>
+                <br />
+                <button class="button" id="gallery" onclick="location.href='#gp'"><a href="#gp">Gallery</a></button>
+                <br />
+                <button class="button" id="museum" onclick="location.href='#mu'">
+                    <a href="#mu">Museum</a></button>
+            </div>
+            <div class="poet">
+                <span>The house,</span>
+                <span> the stars,</span>
+                <span> the desert—</span>
+                <span> what gives them their beauty</span>
+                <span> is something that</span>
+                <span> is invisible.</span>
+            </div>
+        </section>
+        <div class="bg image1"> </div>
+        <section id="artistpage">
+            <div id="artistheader">
+                <P>Guim Tió Zarraluki</P>
+            </div>
+            <div id="photo">
+                <img src="img/tio.png" alt="guimsphoto">
+            </div>
+            <span id="bio">
+                <p> Guim Tió Zarraluki is an emerging Spanish artist who takes a bright swipe at contemporary standards
+                    of beauty with his astounding, beautifully bizarre, portraits. In his practice Gium Tió alters
+                    fashion magazine images with chemicals and oil pastels transforming attractive models into abstract,
+                    and sometimes unsettling, figures. The primordial picture is almost completely buried by a new
+                    geological level. Only a small part of the magazine is left untouched or barely altered, as a trace
+                    of the subject’s past life.</br>
+                    His research stems from his study of the human condition, in which he adds humor, irony and at times
+                    some provocation creating haunting and abstract characters with bug-like eyes, exaggerated noses,
+                    elongated necks and bold colours.
+                </p>
+            </span>
+        </section>
+        <div class="bg image2"></div>
+        <section class="artwork">
+            <div id="dog">
+                <img src="img/dog.jpeg" alt="dog">
+            </div>
+            <div class="workcontent">
+                <p id="workheader">Passeig</p>
+                <br />
+                <p id="workcontent">"Sometimes loneliness is an arrogant, disturbing nematode; sometimes loneliness is a
+                    bright and warm smile; sometimes loneliness is the wind in the winter night, sharp and direct."
+                </p>
+                <br />
+                <p id="workcontent">
+                    In the clear color blocks and solid paint, Tió uses his usual technique to depict loneliness in the
+                    most beautiful posture. It makes people feel like being in the painting, feeling lonely with the
+                    characters in it, yet at the same time staying out of the matter, it seems like everything has
+                    nothing to do with them.
+                </p>
+                <br />
+                <p id="workcontent">Describe the constant and sweeping loneliness, through dialectical inner dialogue,
+                    to spread out emotional matters and events. With the eyes of an observer, profile each winding and
+                    deep emotional scene, telling the ebb and flow of life, sadness and happiness.
+                </p>
+            </div>
+        </section>
+        <div class="bg image3">
+        </div>
+        <section id="gallerypage">
+            <p id="gp"></p>
+            <div id="carousel-wrapper">
+                <div id="menu">
+                    <div id="current-option">
+                        <a href="" class="titlelink" id="current-option-text1" data-previous-text=""
+                            data-next-text=""></a>
+                        <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+                    </div>
+                    <button id="previous-option"></button>
+                    <button id="next-option"></button>
+
+                </div>
+                <div id="image"></div>
+            </div>
+        </section>
+        <div class="bg image4">
+
+            <video autoplay muted loop>
+                <source src="produce.mp4" type="video/mp4">
+            </video>
+        </div>
+        <section id="museumpage">
+            <p id="mu">YIRI ARTS Taipei Space</p>
+            <ul class="main-box">
+                <li class="box active"><span>About</span>
+
+                    <div class="detail active">
+                        <p id="yiribio">YIRI ARTS was founded in 2014 in the spirit of creating an "Everyday Art
+                            Museum", seeking to
+                            allow
+                            art to enter and enrich people's lives. We present inspiring works full of vitality through
+                            curation, exhibitions, publications, and international art fairs. In November of 2014, we
+                            co-founded
+                            the Taipei Free Art Fair because we believe there is art to be found everywhere.
+                        </p>
+                        <br />
+                        <a id="http" href="http://yiriarts.com.tw/" target="_blank">http://yiriarts.com.tw/</a>
+                    </div>
+                </li>
+                <li class="box"><span>Current Event</span>
+                    <div class="detail">
+                        <img src="img/kal.jpeg" alt="" width="400px">
+                        <br />
+                        <a id="kal" href="https://yiriarts.com.tw/show/kaleidoscope/?v=7516fd43adaa"
+                            target="_blank">KALEIDOSCOPE</a>
+                        <br />
+                        <a class="kalinfos">kaleidoscope｜Group Exhibition</a>
+                        <br />
+                        <a class="kalinfos">11.25.2021–12.11.2021</a>
+                    </div>
+                </li>
+                <li class="box"><span>Artists</span>
+
+                    <div class="detail">
+
+                        <table class="yishujia">
+                            <tr>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/chen-yu-erh"
+                                        target="_blank">Chen Yu-Erh</a></a>
+                                </td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/chen-yun"
+                                        target="_blank">Chen Yun</a></td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/daniel-sueiras-fanjul"
+                                        target="_blank">Daniel
+                                        Sueiras Fanjul</a></td>
+                            </tr>
+                            <tr>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/wang-guan-jhen"
+                                        target="_blank">Wang Guan-Jhen</a>
+                                </td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/yuichi-hirako"
+                                        target="_blank">Yuichi Hirako</a>
+                                </td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/lin-yi-pei"
+                                        target="_blank">Lin Yi-Pei</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/lai-wei-yu-1"
+                                        target="_blank">Lai Wei-Yu</a></td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/guim-tio-zarraluki"
+                                        target="_blank">Guim Tió
+                                        Zarraluki</a></td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/tomoko-hasuwa"
+                                        target="_blank">Tomoko Hasuwa</a>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/xevi-sola-serra"
+                                        target="_blank">Xevi Solà
+                                        Serra</a></td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/monica-subide"
+                                        target="_blank">Mònica Subidé</a>
+                                </td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/sun-pei-mao"
+                                        target="_blank">Sun Pei-Mao</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/hanna-ilczyszyn-1"
+                                        target="_blank">Hanna
+                                        Ilczyszyn</a></td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/hou-chen-lu"
+                                        target="_blank">Hou Chen-Lu</a></td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/shih-yung-chun"
+                                        target="_blank">Shih Yung Chun</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/chen-han-sheng"
+                                        target="_blank">Chen Han-Sheng</a>
+                                </td>
+                                <td><a class="nameofartists"
+                                        href="https://www.artsy.net/partner/yiri-arts/artists/chen-wen-li-1"
+                                        target="_blank">Chen Wen-Li</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+                <li class="box"><span>Location</span>
+                    <div class="detail" id="map">
+                        <p> <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d903.5588881861663!2d121.5891038292157!3d25.060004213857074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7a3ead040f7a2f73!2zMjXCsDAzJzM2LjAiTiAxMjHCsDM1JzIyLjciRQ!5e0!3m2!1sen!2sus!4v1638233686472!5m2!1sen!2sus"
+                                allowfullscreen="" width="578" height="340" frameborder="0" style="border:0"
+                                class="map"></iframe>
+                        </p>
+                    </div>
+                </li>
+
+                <li class="box"><span>Contact</span>
+                    <div class="detail">
+                        <p id="contacttitle"> YIRI ARTS Taipei Space</p>
+                        <br />
+                        <p class="info">No. 1, Lane 86, Xinming Rd, Neihu District, Taipei City, Taiwan</p>
+                        <p class="info">+886&nbsp;2&nbsp;2786&nbsp;3866</p>
+                        <a href="http://yiriarts.com.tw/" id="infohttp" target="_blank">http://yiriarts.com.tw/</a>
+                        <br />
+                        <br />
+                        <table class="times" width="480" height="100">
+                            <tr>
+                                <td>Sun</td>
+                                <td>Mon</td>
+                                <td>Tue</td>
+                                <td>Wed</td>
+                                <td>Thu</td>
+                                <td>Fri</td>
+                                <td>Sat</td>
+                            </tr>
+                            <tr>
+                                <td>Closed</td>
+                                <td>Closed</td>
+                                <td>1-7PM</td>
+                                <td>1-7PM</td>
+                                <td>1-7PM</td>
+                                <td>1-7PM</td>
+                                <td>1-7PM</td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+            </ul>
+
+        </section>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
