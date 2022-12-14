@@ -12,10 +12,10 @@ const text2_options = [
 ];
 
 const text_links = [
-    "http://eliohung.com/aau/wnm601/m14/quarantine/index.html",
-    "http://eliohung.com/aau/wnm601/m14/noname/noname.html",
-    "http://eliohung.com/aau/wnm601/m14/neu/neu.html",
-    "http://eliohung.com/aau/wnm601/m14/sw/selectedwork.html"
+    "https://elio0173.github.io/elio0173/quarantine/index.html",
+    "https://elio0173.github.io/elio0173/noname/noname.html",
+    "https://elio0173.github.io/elio0173/neu/neu.html",
+    "https://elio0173.github.io/elio0173/sw/selectedwork.html"
 ];
 
 const color_options = ["#EBB9D2", "#79a6d3", "#6CE5B1", "#FE9968",];
